@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">referenceData</value>
+  <value name="svc_subtype">default</value>
+  <value name="svc_sigtype">unknown</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_in" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="node_nsName">pub.referenceData.docTypes:matchCriteria</value>
+      <value name="node_pkg">WmPublic</value>
+      <value name="node_comment"></value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="wrapper_type">IData</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">matchCriteria</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">1</value>
+          <value name="wrapper_type">IData</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="is_soap_array_encoding_used">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_usereditable">false</value>
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">path</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <array name="field_options" type="value" depth="1">
+                <value>id</value>
+                <value>name</value>
+                <value>nationality</value>
+                <value>city</value>
+                <value>latitude</value>
+                <value>longitude</value>
+                <value>gender</value>
+                <value>ethnic.group</value>
+                <value>age</value>
+                <value>english.grade</value>
+                <value>math.grade</value>
+                <value>sciences.grade</value>
+                <value>language.grade</value>
+                <value>portfolio.rating</value>
+                <value>coverletter.rating</value>
+                <value>refletter.rating</value>
+              </array>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_usereditable">false</value>
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">compareValueAs</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <array name="field_options" type="value" depth="1">
+                <value>string</value>
+                <value>numeric</value>
+                <value>date</value>
+              </array>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_usereditable">true</value>
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">datePattern</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <array name="field_options" type="value" depth="1">
+              </array>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">joins</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">1</value>
+              <value name="wrapper_type">IData</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <value name="is_soap_array_encoding_used">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">false</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">operator</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <array name="field_options" type="value" depth="1">
+                    <value>equals</value>
+                    <value>doesNotEqual</value>
+                    <value>greaterThan</value>
+                    <value>greaterThanOrEqual</value>
+                    <value>lessThan</value>
+                    <value>lessThanOrEqual</value>
+                    <value>equalsIgnoreCase</value>
+                    <value>contains</value>
+                    <value>doesNotContain</value>
+                    <value>beginsWith</value>
+                    <value>doesNotBeginWith</value>
+                    <value>endsWith</value>
+                    <value>doesNotEndWith</value>
+                  </array>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">true</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">value</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <array name="field_options" type="value" depth="1">
+                  </array>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">false</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">joinType</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <array name="field_options" type="value" depth="1">
+                    <value>and</value>
+                    <value>or</value>
+                  </array>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="is_public">false</value>
+          <value name="field_name">refdata_v2</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">1</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="is_soap_array_encoding_used">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">id</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">name</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">nationality</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">city</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">latitude</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">longitude</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">gender</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">ethnic.group</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">age</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">english.grade</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">math.grade</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">sciences.grade</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">language.grade</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">portfolio.rating</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">coverletter.rating</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">refletter.rating</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+  </record>
+  <value name="stateless">yes</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <null name="auditfields_input"/>
+  <null name="auditfields_output"/>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+  <array name="allowedHTTPMethods" type="value" depth="1">
+    <value>TRACE</value>
+    <value>HEAD</value>
+    <value>DELETE</value>
+    <value>POST</value>
+    <value>GET</value>
+    <value>OPTIONS</value>
+    <value>PUT</value>
+    <value>PATCH</value>
+  </array>
+  <value name="pipeline_option">0</value>
+  <null name="originURI"/>
+  <value name="modifiable">true</value>
+  <value name="is_public">false</value>
+  <record name="$REFERENCE_DATA$" javaclass="com.wm.util.Values">
+    <value name="name">refdata_v2</value>
+    <value name="packageName">refDataSvc</value>
+    <value name="descriptorName">ns:refdata_v2</value>
+    <byte name="sourceBytes">
+aWQsbmFtZSxuYXRpb25hbGl0eSxjaXR5LGxhdGl0dWRlLGxvbmdpdHVkZSxnZW5kZXIsZXRobmljLmdyb3VwLGFnZSxlbmdsaXNoLmdyYWRlLG1hdGguZ3JhZGUsc2NpZW5jZXMuZ3JhZGUsbGFuZ3VhZ2UuZ3JhZGUscG9ydGZvbGlvLnJhdGluZyxjb3ZlcmxldHRlci5yYXRpbmcscmVmbGV0dGVyLnJhdGluZw0KMCxLaWFuYSBMb3IsQ2hpbmEsU3V6aG91LDMxLjMxLDEyMC42MixGLE5BLDIyLDMuNSwzLjcsMy4xLDEsNCw0LDQNCjEsSm9zaHVhIExvbmFrZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbnRhIENsYXJpdGEsMzQuMzksLTExOC41NCxNLE5BLDIyLDIuOSwzLjIsMy42LDUsNSw0LDUNCjIsRGFrb3RhIEJsYW5jbyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsT2FrbGFuZCwzNy44LC0xMjIuMjcsRixOQSwyMiwzLjksMy44LDMuMiw1LDMsMyw0DQozLE5hdGFzaGEgWWFydXNzbyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsQ2FzdHJvIFZhbGxleSwzNy42OSwtMTIyLjA5LEYsTkEsMjAsMy4zLDIuOCwzLjIsNSw1LDIsNA0KNCxCcm9va2UgQ2F6YXJlcyxCcmF6aWwsUz/vv71vIEpvcz8/IGRvcyBDYW1wb3MsLTIzLjE4LC00NS44OCxGLE5BLDIxLDMuNywyLjYsMy40LDEsNCw0LDUNCjUsUm9jaGVsbGUgSm9obnNvbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsSW5kaWFuYXBvbGlzLDM5Ljc3LC04Ni4xNixGLE5BLDIxLDMuNCwzLjEsMy43LDUsMiw0LDQNCjYsSm9leSBBYnJldSxDaGluYSxTaGVueWFuZyw0MS43OSwxMjMuNDMsTSxOQSwyMiwzLjcsMy45LDMuNiwyLDUsNSw1DQo3LFByZXN0b24gU3VhcmV6LEJyYXppbCxTP++/vW8gUGF1bG8sLTIzLjQ3LC00Ni42NyxNLE5BLDIyLDMuOCwzLjcsMy42LDIsNSw1LDQNCjgsTGVlIERvbmcsUGhpbGlwcGluZXMsTWFuaWxhLDE0LjYsMTIwLjk4LEYsTkEsMjQsMy45LDMuNiwzLjIsMiw0LDMsNQ0KOSxNYWEnaXogYWwtRGlhLFR1cmtleSxJc3RhbmJ1bCw0MS4wMiwyOC45NixNLE5BLDIyLDIuNCwyLjgsMy44LDMsNSw1LDQNCjEwLE1hamEgTmljaG9sc29uLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxEYWxsYXMsMzIuNzgsLTk2LjgsRixOQSwyMywzLjQsMy41LDMuMiw1LDQsMiw1DQoxMSxTYXNoYSBKYW5zZW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLENoaWNhZ28sNDEuODUsLTg3LjY1LEYsTkEsMjEsMS43LDQsMy42LDUsNCw0LDUNCjEyLEFsZXhhbmRlciBTaGVybWFuLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxPbWFoYSw0MS4yNiwtOTUuOTQsTSxOQSwyMCwzLjgsMy42LDMuOSw1LDQsNCw1DQoxMyxFZGdhciBTYW5jaGV6LE1leGljbyxUaWp1YW5hLDMyLjUzLC0xMTcuMDIsTSxOQSwyMywzLjcsMy41LDQsNCw0LDUsNQ0KMTQsS29sYmkgU3RydW5rLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNaXNzaW9uIFZpZWpvLDMzLjYsLTExNy42NyxNLE5BLDIxLDMuMiwzLjksMy4zLDUsNCwzLDQNCjE1LEJyaXR0YW55IFNhdGgsSmFwYW4sVG9reW8sMzUuNjksMTM5Ljc1LEYsTkEsMjEsNCwzLjksMy43LDMsNSwzLDUNCjE2LE1lZ2dhbiBTbWl0aCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIxLDIuOSwzLjQsMy42LDUsMiw1LDQNCjE3LEVyaWNrYSBBcnJlb2xhLE1leGljbyxNZXhpY28sMTkuNDMsLTk5LjE0LG90aGVyLE5BLDIzLDMuMSwzLjUsMi44LDQsNCwzLDQNCjE4LERhdmlkIFB1bGMsQ2FuYWRhLFRvcm9udG8sNDMuNjcsLTc5LjQyLE0sTkEsMjQsMy45LDIuOSw0LDUsNSw0LDINCjE5LEt5bGUgTHVja2V5LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNb3Jlbm8gVmFsbGV5LDMzLjk0LC0xMTcuMjMsTSxOQSwyMywzLjcsMy45LDMuNCw1LDMsNCw0DQoyMCxSb2plc2ggSGVyLEphcGFuLFRva3lvLDM1LjY5LDEzOS43NSxNLE5BLDIyLDMuOCwzLjYsMy42LDIsNCw0LDMNCjIxLERhdmlkIFdlYmVyLENoaW5hLFBla2luZywzOS45MywxMTYuMzksTSxOQSwyMCwzLjksMy45LDMuOSwyLDMsNCw1DQoyMixSYWNoZWwgSmFtYm9yLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxDaGljYWdvLDQxLjg1LC04Ny42NSxGLE5BLDIyLDMuNiwzLjYsMy45LDUsMyw0LDQNCjIzLE11cydhYiBhbC1Nb3VzdGFmYSxQYWtpc3RhbixSYXdhbHBpbmRpLDMzLjYsNzMuMDcsTSxOQSwyMywzLjgsMy45LDMuOCwyLDIsNSw0DQoyNCxTaWxhIE5ndXllbixDaGluYSxIZWJpLDM1LjksMTE0LjE5LE0sTkEsMjMsMi44LDMuNSwzLjUsNCw1LDQsNA0KMjUsU2FtYW50aGEgSGlja3MsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbnRhIEJhcmJhcmEsMzQuNDIsLTExOS43LEYsTkEsMjIsMy43LDMuNywzLjgsNSwzLDQsNA0KMjYsQW5nZWxhIEhhcmRpbmcsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE1hbnRlY2EsMzcuOCwtMTIxLjIyLEYsTkEsMjIsMy4xLDIuOSwzLjIsNSwzLDUsNQ0KMjcsQnJhbmRvbiBCYXJib3VyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTb3V0aCBIaWxsLDQ3LjE0LC0xMjIuMjcsTSxOQSwyMSwzLjksMy43LDMuMyw1LDQsNSw1DQoyOCxSZWlsbHkgV2FnYXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE1vZGVzdG8sMzcuNjQsLTEyMSxGLE5BLDIzLDMuNCwzLjIsMy43LDUsNSw0LDUNCjI5LFZpY3RvcmlhIEliYXJyYSxEb21pbmljYW4gUmVwdWJsaWMsU2FudG8gRG9taW5nbywxOC40NywtNjkuOSxGLE5BLDIyLDMuNCwzLjgsNCw0LDUsNSw1DQozMCxEYWtvdGEgV2lydGgsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhY3JhbWVudG8sMzguNTgsLTEyMS40OSxGLE5BLDIyLDMuNCwzLjksMy42LDUsMyw1LDUNCjMxLExhdXJlbiBLbG9ja2VyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LEYsTkEsMjIsMi4zLDMuOSwzLjgsNSw1LDMsNA0KMzIsTWljaGFlbCBCZW5zb24sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFBob2VuaXgsMzMuNDUsLTExMi4wNyxNLE5BLDIxLDMuOCwzLjcsMy43LDUsNCw1LDMNCjMzLFNlYW4gUm96Z2EsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMSwzLjQsMy44LDMuNiw1LDQsNSw0DQozNCxDb2R5IFZlcm1leWxlbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsRGV0cm9pdCw0Mi4zMywtODMuMDUsTSxOQSwyMywzLjMsMy44LDMuNSw1LDIsMyw0DQozNSxLaW5hYW5hIGFsLUphbWFpbCxJbmRpYSxLYW5wdXIsMjYuNDcsODAuMzUsRixOQSwyMiwzLjMsMy44LDMuNywzLDQsNCw0DQozNixEYW5pZWwgR2FyY2lhLFBlcnUsTGltYSwtMTIuMDUsLTc3LjA1LE0sTkEsMjIsMy43LDMuMSwzLDMsNSw1LDUNCjM3LEthdHJpbmEgU2FpdG8sSmFwYW4sVG9reW8sMzUuNjksMTM5Ljc1LEYsTkEsMjIsMy44LDQsMy43LDQsNSw0LDUNCjM4LEpvc2h1YSBHYWxsb3dheSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTmV3IFlvcmssNDAuNzEsLTc0LjAxLE0sTkEsMjQsMy4zLDMuMywzLjYsNSw0LDUsNQ0KMzksQXlsaW4gTWVuZG96YSxNZXhpY28sTWV4aWNvLDE5LjQzLC05OS4xNCxGLE5BLDIyLDMsMi4zLDMuOSw0LDIsNCw0DQo0MCxTaGFyb24gRnlmZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIyLDMuNywzLDMuOCw1LDQsNSw0DQo0MSxBZm5hYW4gZWwtTW9oYW1tZWQsSW5kaWEsTmV3IERlbGhpLDI4LjYsNzcuMixGLE5BLDIyLDEuNywzLjUsMy45LDIsNSw1LDQNCjQyLEplc3NlIFdpbGxpYW1zLFJ1c3NpYW4gRmVkZXJhdGlvbixNb3Njb3csNTUuNzUsMzcuNjIsRixOQSwyMSwzLjksMy40LDIuNiw0LDQsNCw1DQo0MyxLZW5ueSBGdWt1c2hpbWEsSmFwYW4sVG9reW8sMzUuNjksMTM5Ljc1LE0sTkEsMjIsMy45LDIuOSwzLjMsNCw1LDUsNQ0KNDQsVGF3bmllIEdsYWlzaGVyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxGcmVtb250LDM3LjU1LC0xMjEuOTksRixOQSwyNCwzLjQsMy4yLDMuOCw1LDQsNCw1DQo0NSxCcml0YW55IFN0ZXZlbnMsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExhZmF5ZXR0ZSwzNy44OSwtMTIyLjEyLEYsTkEsMjMsMy42LDMuMywzLjUsNSwzLDMsMw0KNDYsQWxhbiBUcmluaCxKYXBhbixUb2t5bywzNS42OSwxMzkuNzUsTSxOQSwyMCwyLjgsMy4xLDMuOCw0LDMsNCw1DQo0Nyxab2UgS2VybixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsV2VzdCBKb3JkYW4sNDAuNjEsLTExMS45NCxGLE5BLDIyLDIuMSw0LDMuNCw1LDQsNSw0DQo0OCxTaWRuZXkgQmVhdmVycyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIzLDIuMywyLjgsMy41LDUsNCw0LDQNCjQ5LE1pcmlhbSBBZ3VpbGFyLE1leGljbyxNZXhpY2FsaSwzMi42NSwtMTE1LjQ3LEYsTkEsMjIsMy42LDMuOCwyLjgsMiw0LDQsNA0KNTAsSXNzYWMgTWF0YSxNZXhpY28sVGVodWFjP++/vW4sMTguNDUsLTk3LjM4LE0sTkEsMjMsMi40LDMuMSwyLjcsMSw1LDUsNA0KNTEsSGFubmFoIFVyZW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMiwzLjIsMi4yLDMuNSw1LDUsMyw1DQo1MixaYWNoYXJ5IEJyYWRsZXksU3BhaW4sTWFkcmlkLDQwLjQxLC0zLjY5LE0sTkEsMjEsMy41LDMuNSwzLjQsMiwzLDUsNQ0KNTMsTW9pcmEgQnV0dGl0dG8sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMywxLjksMi44LDMuMiw1LDQsNSw1DQo1NCxOaWNvbGUgSHVtcGFsLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxXYWxudXQgQ3JlZWssMzcuOTEsLTEyMi4wNixGLE5BLDIyLDMuOSwzLjcsNCw1LDMsNSwzDQo1NSxHZW9yZ2lhIFdpbGxpYW1zLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNZW1waGlzLDM1LjE1LC05MC4wNSxGLE5BLDIzLDIuOSwzLjYsMy4xLDUsNSw1LDINCjU2LENvbm5vciBGZXJyeSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsQ2hhcmxvdHRlLDM1LjIzLC04MC44NCxNLE5BLDIzLDMuMSwzLjgsNCw1LDQsNSw0DQo1NyxBbWFuZGEgVGF0dW0sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbiBEaWVnbywzMi43MiwtMTE3LjE2LEYsTkEsMjIsMy41LDIuMywzLjcsNSw0LDUsNA0KNTgsQ2FtZXJvbiBTdGVpbmJlcmcsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMCwyLjEsMy45LDMuOSw1LDUsNSw1DQo1OSxTaHVyYWloIGVsLUthcmltLFBha2lzdGFuLEtoYWxhYmF0LDM0LjA2LDcyLjg5LE0sTkEsMjIsMy4xLDIuMSwyLjMsNCw0LDQsNA0KNjAsS2F0ZWx5biBTaGFycCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIwLDMuOSwzLjcsMi44LDUsNSwzLDUNCjYxLENvbGluIExlbW9udCxDaGluYSxTaGFuZ2hhaSwzMS4wNSwxMjEuNCxNLE5BLDIxLDMuNiw0LDMuMSw0LDQsNSw0DQo2MixEb25hbGQgTmV2aW5zLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gSm9zZSwzNy4zNCwtMTIxLjg5LE0sTkEsMjMsMy42LDMuNCwyLjgsNSwyLDQsNA0KNjMsTWFjYWVsYSBLYWRpbGxhayxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIwLDIuNywzLjMsMy4zLDUsNCwxLDQNCjY0LEJyaXR0YW55IFByYXR0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gRGllZ28sMzIuNzIsLTExNy4xNixGLE5BLDIyLDMsMy4xLDMuMSw1LDMsNCw0DQo2NSxDYW1lcm9uIEhhbmNvY2ssUG9sYW5kLFdhcnNhdyw1Mi4yNSwyMSxNLE5BLDIxLDMuOSwzLjgsMywzLDQsMyw0DQo2NixXaWxsaWFtIEdyZXZpb3VzLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTdG9ja3RvbiwzNy45NiwtMTIxLjI5LE0sTkEsMjIsMy40LDMuNCwzLjEsNSwzLDUsNQ0KNjcsTGluZHNleSBKb2IsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMywyLjcsMy43LDEuOCw1LDQsNSw0DQo2OCxHYWJyaWVsbGUgU21pdGgsS29yZWEgKFJlcHVibGljIG9mKSxTZW91bCwzNy42LDEyNi45OCxGLE5BLDIzLDQsMywyLjgsMywyLDIsNA0KNjksQWxsaXNvbiBCcmluay1Mb21tZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsUG9ydGxhbmQsNDUuNTIsLTEyMi42NyxGLE5BLDI0LDIuOCwzLjYsNCw1LDQsMywxDQo3MCxTaGV5ZW5uZSBEZWxnYWRvLU1hbnphbmFyZXMsQ3ViYSxNYW56YW5pbGxvLDIwLjM0LC03Ny4xMixGLE5BLDIxLDMuOSwyLjgsMy4yLDMsNCw0LDUNCjcxLEpvc2VwaCBTbWl0aCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FjcmFtZW50bywzOC41OCwtMTIxLjQ5LE0sTkEsMjEsMy43LDMuNywyLjgsNSw1LDQsNA0KNzIsRmlrcmEgYWwtTWluYSxJbmRpYSxCb21iYXksMTguOTgsNzIuODMsRixOQSwyMSwzLjEsMi40LDMuMywzLDEsNSw0DQo3MyxBdXJlbGlhIERhdmlzIEluZ2hhbSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsUm9zZXZpbGxlLDM4Ljc1LC0xMjEuMjksRixOQSwyMiwzLjgsMi4yLDMuNyw1LDQsNSw1DQo3NCxUYXlsb3IgRWxzdHVuLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gRGllZ28sMzIuNzIsLTExNy4xNixGLE5BLDIxLDIuMywzLjcsMy42LDUsNSw0LDUNCjc1LEpvc2VwaCBTbmlkZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMSwzLjIsMi42LDMsNSw1LDQsNQ0KNzYsU291cmludGhvbmUgVHJhbixDaGluYSxXdWhhbiwzMC41OCwxMTQuMjcsTSxOQSwyMSwzLjUsMy45LDMuNCw0LDQsNCw1DQo3NyxJYnJhaGltIGFsLVNhd2F5YSxUdW5pc2lhLE1hbnppbCBUYW1pbSwzNi43OCwxMC45OSxNLE5BLDIzLDMuNSwzLjEsNCw0LDUsMywzDQo3OCxBbGV4YW5kcmEgTGV2eSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIzLDMuMSwyLjUsMy43LDUsNCwzLDUNCjc5LE1hY2llIE5ndXllbixKYXBhbixUb2t5bywzNS42OSwxMzkuNzUsRixOQSwyMywzLjEsMy44LDMuOCw0LDIsNCwzDQo4MCxTZWFuIFRlZ3RtYW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEtldHRlcmluZywzOS42OSwtODQuMTcsTSxOQSwyNSwzLjcsMy44LDMuOCw1LDMsNCw1DQo4MSxDYXNleSBWYW5kZW4gQm9zLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LE0sTkEsMjIsMi43LDIuNiwzLjMsNSw1LDUsNA0KODIsU3RhY2kgTWFlcyxNZXhpY28sTWV4aWNvLDE5LjQzLC05OS4xNCxGLE5BLDIzLDMuNCwyLjYsMy45LDIsNSwzLDUNCjgzLEx1a2UgRGF2ZXksVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyNiwzLjgsMy40LDMuNyw1LDQsNSwzDQo4NCxIYXJwZXIgV2hlZWxlci1NYXJxdWVzLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gRGllZ28sMzIuNzIsLTExNy4xNixGLE5BLDIzLDMuOSwyLjQsMy45LDUsNSw0LDINCjg1LFNoZXJsZWVuIFNhcmF2YW5hbixNeWFubWFyLFJhbmdvb24sMTYuNzgsOTYuMTcsRixOQSwyMiwzLjEsMy40LDMuNywzLDQsMyw1DQo4NixNeWxlcyBWYXVnaHQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFdhdWtlZ2FuLDQyLjM2LC04Ny44NCxNLE5BLDIxLDMuNCwzLjgsMy45LDUsMyw0LDQNCjg3LEp1YW4gR3VlcnJlcm8gQ2FtYWNobyxNZXhpY28sTWV4aWNvLDE5LjQzLC05OS4xNCxNLE5BLDIxLDIuOCwzLjcsMy41LDIsNCw0LDUNCjg4LExpbmRzZXkgRnJldW5kLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsRixOQSwyMCwzLjMsMi4zLDMuOSw1LDMsNSw1DQo4OSxTYXZhbm5haCBDbGFyayxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsVmlzYWxpYSwzNi4zMywtMTE5LjI5LEYsTkEsMjAsMi44LDMuNSwyLjYsNSwzLDQsNA0KOTAsQnJhZGxleSBNb25zZWxsLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsTSxOQSwyMiwzLDMuOSwzLjEsNSw1LDIsNA0KOTEsRGFpc2hhIFNjaG1pZHQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEJvdWxkZXIsNDAuMDIsLTEwNS4yNyxGLE5BLDIyLDMuNywzLjksNCw1LDUsNCw0DQo5MixBaXJhYmVsbGEgS29vbnR6LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxEYWxsYXMsMzIuNzgsLTk2LjgsRixOQSwyMiwyLjcsMy4zLDMuNCw1LDQsNSw0DQo5MyxIYWlsZXkgTWFsbGUsUnVzc2lhbiBGZWRlcmF0aW9uLE5pemhuaXkgTm92Z29yb2QsNTYuMzMsNDQuMDEsRixOQSwyMiwzLjcsMi41LDMuMiwyLDMsMyw1DQo5NCxEZXZvbiBNaXJhbmRhLENvbG9tYmlhLFBlcmVpcmEsNC44MSwtNzUuNyxNLE5BLDIwLDMuNywzLjcsMy44LDEsNSw1LDUNCjk1LERhbmllbGxlIE5ndXllbixKYXBhbixUb2t5bywzNS42OSwxMzkuNzUsRixOQSwyMywzLjMsMy41LDMuNiwzLDUsNCw0DQo5NixNYXRlbyBDaXNuZXJvcyxCcmF6aWwsRm96IGRvIElndWE/77+9dSwtMjUuNTUsLTU0LjU4LE0sTkEsMjMsMywzLjQsMi45LDQsNCw0LDUNCjk3LFdpbGxpYW0gUGFibG8sSmFwYW4sS2FzaGl3YXJhLDM0LjU4LDEzNS42MixNLE5BLDI0LDIuOSwzLjMsMy4xLDQsMiw1LDQNCjk4LEphc29uIEh1bmRzZG9yZmVyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LE0sTkEsMjAsMy45LDMuOSw0LDUsMywzLjUsMw0KOTksQW50b25pbyBEZXNhaSxKYXBhbixLYXdhc2FraSwzNS41MiwxMzkuNzIsTSxOQSwyMiwyLjIsMy45LDMuOSwzLDUsNCw1DQoxMDAsUmFjaGVsIEJha2VtYW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFBob2VuaXgsMzMuNDUsLTExMi4wNyxGLE5BLDI0LDMuOSwzLjcsMy44LDUsNCw1LDMNCjEwMSxNYW1kb29oIGVsLU1vdXN0YWZhLFBha2lzdGFuLEthcmFjaGksMjQuOTEsNjcuMDgsTSxOQSwyMiwzLjMsMi44LDMuOSw0LDQsNCw0DQoxMDIsTGluZHNleSBDYXJ0ZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFJlZHdvb2QgQ2l0eSwzNy40OSwtMTIyLjI0LEYsTkEsMjQsMy4yLDMuOSwzLjksNSwyLDQsNQ0KMTAzLER1bmNhbiBLcnVzZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FudGEgQW5hLDMzLjc1LC0xMTcuODcsTSxOQSwyMywzLjcsMy44LDMuNyw1LDEsNSw0DQoxMDQsQ2FsbGFoYW4gRm9zdGVyLENhbmFkYSxUb3JvbnRvLDQzLjY3LC03OS40MixvdGhlcixOQSwyMiwzLjIsMywzLjksNSwzLDMsNQ0KMTA1LEphbWllIE9ydGl6LEVsIFNhbHZhZG9yLE51ZXZhIFNhbiBTYWx2YWRvciwxMy42OCwtODkuMjgsRixOQSwyMywzLjMsMi45LDMuNSwzLDQsNCw0DQoxMDYsUnlhbiBCYXJyZXR0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxDaGljYWdvLDQxLjg1LC04Ny42NSxNLE5BLDIwLDMuNywzLjIsNCw1LDUsNCwxDQoxMDcsU2FtdWVsIFBhbG1lcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTmV3IFlvcmssNDAuNzEsLTc0LjAxLE0sTkEsMjIsMy45LDMuMywzLjMsNSw1LDQsMg0KMTA4LFJpbGV5IE1jbG91Z2hsaW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMywzLjYsMy42LDMuMyw1LDUsNCw0DQoxMDksQWltZWUgQXBlbHlhbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsSm9saWV0LDQxLjUyLC04OC4wOCxGLE5BLDI0LDMuMywzLjgsMy44LDUsNCw0LDQNCjExMCxNYXJ5YWggRmFsbG9vbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsUGhvZW5peCwzMy40NSwtMTEyLjA3LEYsTkEsMjMsMy45LDMuNywzLjksNSwzLDQsNQ0KMTExLEx1Y2lsbGUgTWl0Y2hlbGwsQ2FuYWRhLEVkbW9udG9uLDUzLjU1LC0xMTMuNSxGLE5BLDIyLDMuNSwzLjYsMi42LDUsNSw0LDQNCjExMixDaHJpc3RpYW4gWmFtYnJhbm8tTXVub3osTWV4aWNvLE1leGljYWxpLDMyLjY1LC0xMTUuNDcsTSxOQSwyMywzLjEsMy45LDMuNiw0LDQsMyw0DQoxMTMsQnJ5Y2UgVmFpbGxhbmNvdXJ0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQb21vbmEsMzQuMDYsLTExNy43NSxNLE5BLDIyLDMuNywzLjgsMi4xLDUsNCw1LDQNCjExNCxCcmFuZGlseW4gQ29sbGlucyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIxLDMuNiwzLDMuMyw1LDQsNCw0DQoxMTUsS29ubmVyIEdlYXJoYXJ0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsTSxOQSwyMiwzLjksMy43LDMuMyw1LDQsMywzDQoxMTYsQW5kcmV3IEhvdWdodG9uLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTcG9rYW5lLDQ3LjY2LC0xMTcuNDIsTSxOQSwyMiwzLjIsMy4yLDMuOCw1LDIsNCw1DQoxMTcsTWFyaXNhIFJhbWV5LE1leGljbyxNZXhpY28sMTkuNDMsLTk5LjE0LEYsTkEsMjIsMy4yLDQsMy44LDQsMywzLDQNCjExOCxNYWdkYWx5bm5lIE5vYWgsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE5ldyBZb3JrLDQwLjcxLC03NC4wMSxGLE5BLDIyLDMuMiwzLjgsMy44LDUsMyw0LDQNCjExOSxNZWdhbiBTYWxhbWVuYSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIzLDMuOSwzLjksMy4xLDUsNCw0LDUNCjEyMCxNZWdoYW4gQXJub2xkLFJ1c3NpYW4gRmVkZXJhdGlvbixTYWludCBQZXRlcnNidXJnLDU5Ljg5LDMwLjI2LEYsTkEsMjQsNCwzLjksMy4zLDMsNSwzLDMNCjEyMSxKYW1lcyBSaWNlLENhbmFkYSxUb3JvbnRvLDQzLjY3LC03OS40MixNLE5BLDIwLDMuOSwyLjQsMy42LDUsNCwzLDQNCjEyMixXZXNsZXkgTnVubixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIzLDMuOSw0LDIuMSw1LDUsNSwzDQoxMjMsR2FyZXRoIE5ld2tpcmssVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMSw0LDMuMiwzLjksNSw0LDUsNA0KMTI0LEF1c3RpbiBIYXJsaW5lLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMYXMgVmVnYXMsMzYuMTcsLTExNS4xNCxNLE5BLDIxLDIuOCwzLjgsMy44LDUsNSw1LDQNCjEyNSxDb3VydG5leSBNYXJ0aW5leixNZXhpY28sQWd1YXNjYWxpZW50ZXMsMjEuODgsLTEwMi4zLEYsTkEsMjAsMy43LDMuNywzLjcsMyw0LDUsNQ0KMTI2LEFsZXhhbmRyYSBHcmFoYW0sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMiwzLjQsMy41LDIuOCw1LDQsMyw1DQoxMjcsQWxleGFuZGVyIFN3ZWFyaW5nZW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMiwzLjksMi44LDQsNSwzLDQsNA0KMTI4LEJyYW5keSBXYWxkbmVyLEdlcm1hbnksWj8/bHBpY2gsNTAuNyw2LjY1LEYsTkEsMjAsMy4yLDMuNSwzLjksMyw1LDUsNQ0KMTI5LENvbGVtYW4gS2VlbGVuLFNwYWluLENhbGxvc2EgZGUgU2VndXJhLDM4LjEyLC0wLjg4LE0sTkEsMjQsMy40LDQsMy40LDQsNCw0LDQNCjEzMCxDYXNleSBCdWhyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQaG9lbml4LDMzLjQ1LC0xMTIuMDcsTSxOQSwyMSwzLjcsMy4yLDIuNSw1LDIsMyw1DQoxMzEsU2hhdW5hIFNuZWVkLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxCdXJsaW5nYW1lLDM3LjU4LC0xMjIuMzYsRixOQSwxOSwyLjcsMy43LDMuNyw1LDUsNCw1DQoxMzIsQ2FpdGxpbiBEZWFuLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQaGlsYWRlbHBoaWEsMzkuOTUsLTc1LjE2LEYsTkEsMjIsMy45LDMuNywzLjEsNSw0LDQsNA0KMTMzLEFuZHJldyBLaXJpbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsT2Rlc3NhLDMxLjg1LC0xMDIuMzcsTSxOQSwyNSwzLjgsMi4yLDMsNSwzLDIsMw0KMTM0LE5hZGlhIE1pbmtzLFJ1c3NpYW4gRmVkZXJhdGlvbixNb3Njb3csNTUuNzUsMzcuNjIsRixOQSwyNCwzLjgsMy4xLDMuNSw0LDIsNSw1DQoxMzUsSXZ5IEx1Y2VybyxCcmF6aWwsUz/vv71vIFBhdWxvLC0yMy40NywtNDYuNjcsRixOQSwyNCwzLjksMy42LDMuMiwzLDQsNCw0DQoxMzYsS2V2aW4gQ3VycnksVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFBob2VuaXgsMzMuNDUsLTExMi4wNyxNLE5BLDIzLDMuOSwzLDMuNyw1LDUsNSw1DQoxMzcsQ2hhcmxlcyBDcmFtZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEVhc3QgTG9zIEFuZ2VsZXMsMzQuMDIsLTExOC4xNyxNLE5BLDIzLDMuMSwzLjUsMy44LDUsNCw1LDQNCjEzOCxFbWlseSBXYXJuZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvZGksMzguMTMsLTEyMS4yNyxGLE5BLDIxLDMuNSwzLjIsMy45LDUsMyw1LDQNCjEzOSxNY2tlbnppZSBIYXljb2NrLENhbmFkYSxUb3JvbnRvLDQzLjY3LC03OS40MixGLE5BLDIwLDMuOCwyLjMsMy43LDUsNSw0LDMNCjE0MCxGYXZpb2xhIFNvdG8sTWV4aWNvLENvcnRhemFyLDIwLjQ4LC0xMDAuOTMsRixOQSwxOSw0LDMuOCwzLjksMy43LDUsNSw0DQoxNDEsU3RlcGhlbiBXaGFydG9uLE1leGljbyxUdXh0bGEgR3V0aT8/cnJleiwxNi43NSwtOTMuMTIsTSxOQSwyMSwyLjEsMy43LDMuOCw0LDQsNSwzDQoxNDIsQWxleGFuZHJpYSBGb3J0bmVyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQaG9lbml4LDMzLjQ1LC0xMTIuMDcsRixOQSwyMCwzLjksMy44LDMuOCw1LDQsNCw1DQoxNDMsU2F2YW5uYWggS2l2ZXR0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxDb2xvcmFkbyBTcHJpbmdzLDM4LjgzLC0xMDQuODIsRixOQSwyMSwzLjgsMy45LDMuOCw1LDQsNCw1DQoxNDQsVGFubmVyIEpvbmVzLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTdG9ja3RvbiwzNy45NiwtMTIxLjI5LE0sTkEsMjMsMy45LDMuNywzLjcsNSw0LDUsNQ0KMTQ1LEx1aXNhIEJhdXRpc3RhLE1leGljbyxNZXhpY28sMTkuNDMsLTk5LjE0LEYsTkEsMjEsMy4zLDMsMy40LDMsNCw0LDQNCjE0NixKdWhhaW5hIGFsLUJpbGFsLEJhbmdsYWRlc2gsRGhha2EsMjMuNzIsOTAuNDEsRixOQSwyMCwzLjksMy45LDMuOSw1LDUsNCw1DQoxNDcsU2llbmEgSW5ncmFtLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxIZW5kZXJzb24sMzYuMDQsLTExNC45OCxGLE5BLDIxLDMuOCwzLjcsMy44LDUsNSwzLDUNCjE0OCxBbG9uZHJhIEdhcmRlYSBDb3JyYWwsTWV4aWNvLEVuc2VuYWRhLDMxLjg3LC0xMTYuNjIsRixOQSwyMCwyLjIsMy44LDMuMSwyLDMsNCwyDQoxNDksVmluY2VudCBXZWJzdGVyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsTSxOQSwyMywyLDMuNywzLjQsNSw0LDMsNQ0KMTUwLEFiZHVsIEphYmJhYXIgZWwtQWJkdWwsRWd5cHQsQ2Fpcm8sMzAuMDUsMzEuMjUsTSxOQSwyMCwxLjUsMy41LDMuMiwzLDMsNSw0DQoxNTEsUGF0cmljayBDYXJuZXMsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE1lc2EsMzMuNDIsLTExMS44MixNLE5BLDIyLDIuNCwzLjUsMy42LDUsMyw1LDUNCjE1MixTaGF3biBPIEJyeWFuLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxGYWlyZmllbGQsMzguMjUsLTEyMi4wNCxNLE5BLDIzLDIuOSwzLjcsMS41LDUsMyw1LDMNCjE1MyxKZW5uYSBXaGl0bmV5LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gRGllZ28sMzIuNzIsLTExNy4xNixGLE5BLDIzLDMuNywyLjksMy45LDUsMyw0LDUNCjE1NCxLYWl0bGluIEtydWVnZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyNCwzLjcsMy45LDQsNSw0LDUsNA0KMTU1LEphaW1lIE1pa2VzZWxsLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LEYsTkEsMjAsMy45LDMuNywzLjcsNSw0LDUsNA0KMTU2LEthdGVseW5uIEFuZHJpZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsS2Fuc2FzIENpdHksMzkuMSwtOTQuNTgsRixOQSwyMywzLDMuOSwzLjksNSw1LDUsNQ0KMTU3LE1hcnluIE1hbnphbmFyZXMsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExhZ3VuYSBIaWxscywzMy42MSwtMTE3LjcxLEYsTkEsMjEsMy45LDMuMiwzLjIsNSwyLDQsNA0KMTU4LENvbGxlZW4gS29ob3V0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQaGlsYWRlbHBoaWEsMzkuOTUsLTc1LjE2LEYsTkEsMjIsMy41LDMuOCwzLjEsNSw0LDQsNA0KMTU5LERhbmllbCBTcHVybGluLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gSm9zZSwzNy4zNCwtMTIxLjg5LE0sTkEsMjQsMy45LDMuOSwzLjcsNSw1LDUsMw0KMTYwLFRyZXZvciBCdWxiYSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsQ2hpY2Fnbyw0MS44NSwtODcuNjUsTSxOQSwyMSwzLjksMy44LDMuOCw1LDUsNCw1DQoxNjEsSm9yZGFuIEJ1cmtoYW1lcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIEpvc2UsMzcuMzQsLTEyMS44OSxGLE5BLDIzLDMsMy45LDMuNyw1LDUsNCw0DQoxNjIsUmViZWNjYSBBaCBGYXQsQ2hpbmEsVGFuZ3NoYW4sMzcuMzMsMTE0LjcsRixOQSwyMiwxLjgsMy44LDQsNCw0LDMsNA0KMTYzLENocmlzdG9waGVyIEphY29ibyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIxLDMuNCwyLjcsMy45LDUsNCw0LDMNCjE2NCxNaW4gU2luZ2FsLEphcGFuLFRva3lvLDM1LjY5LDEzOS43NSxGLE5BLDI0LDMuOCwyLjksMi45LDQsNSwzLDINCjE2NSxDb3JleSBSYWRlbWFjaGVyLFVrcmFpbmUsQ2hlcm5paGl2LDUxLjUxLDMxLjI4LE0sTkEsMjIsMy4xLDMuMywzLjksMyw0LDUsNA0KMTY2LEFsZXhhbmRlciBSZWVkLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LE0sTkEsMjIsMywyLjcsMy44LDUsNCwyLDUNCjE2NyxEYWxlbiBXaGl0aW5nLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxDYXJyb2xsdG9uLDMyLjk1LC05Ni44OSxGLE5BLDIzLDIuOCwzLjksMy4zLDUsNSw1LDUNCjE2OCxDaGVsc2VhIFBlcnNreSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIEJlcm5hcmRpbm8sMzQuMTEsLTExNy4yOSxGLE5BLDIzLDMuOSwzLjQsNCw1LDMsMyw0DQoxNjksS2FybGEgVGF5bG9yLE1leGljbyxNZXhpY28sMTkuNDMsLTk5LjE0LEYsTkEsMjEsMy43LDMsMy43LDQsNCwzLDINCjE3MCxLYWRlbiBZYXRlcyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FsaW5hcywzNi42OCwtMTIxLjY1LE0sTkEsMjMsMy42LDMuNCw0LDUsNSw0LDMNCjE3MSxNYWltb29uYSBlbC1Tb2xpbWFuLFR1cmtleSxBbmthcmEsMzkuOTEsMzIuODQsRixOQSwyMSwyLjgsMi42LDMuOSwzLDQsMyw0DQoxNzIsQWFxaWwgZWwtSGFzaGVtaSxJbmRpYSxCYW5nYWxvcmUsMTIuOTgsNzcuNTgsTSxOQSwyMSwzLjQsMywzLjYsMyw1LDUsNA0KMTczLFNlYW4gQnJ1c28sVW5pdGVkIEtpbmdkb20sTG9uZG9uLDUxLjUxLC0wLjA5LE0sTkEsMTksMy4yLDMuNywzLjksNSwzLDUsNA0KMTc0LEFuZHJldyBCaXNob3AsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyMiw0LDMuNywzLjgsNSwzLDMsMw0KMTc1LFphaHJhYWEgZWwtWW91c2VmLEluZGlhLEhvc3BldCwxNS4yNyw3Ni40LEYsTkEsMjIsMy45LDMuNywzLjgsNCw0LDQsNA0KMTc2LFN1cnlhIEt5LENoaW5hLFRhbmdzaGFuLDM3LjMzLDExNC43LE0sTkEsMjEsMy43LDQsMy44LDQsNCw0LDUNCjE3NyxHZW9yZ2UgTWFubixSdXNzaWFuIEZlZGVyYXRpb24sTW9zY293LDU1Ljc1LDM3LjYyLE0sTkEsMjMsMy45LDMuOSw0LDQsNSw1LDUNCjE3OCxMYXRpbm8gQ2FsZGVyb24sTWV4aWNvLEhlcm1vc2lsbG8sMjkuMDcsLTExMC45NyxNLE5BLDIzLDMuNiwzLDMsMyw1LDQsNA0KMTc5LEJheWxlbiBDbG91dGllcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsUGhvZW5peCwzMy40NSwtMTEyLjA3LE0sTkEsMjIsMy45LDMuNCwzLjcsNSwzLDUsMw0KMTgwLE5pY29sZSBUb3JyZXMtVmFsYWRleixCcmF6aWwsUmlvIGRlIEphbmVpcm8sLTIyLjksLTQzLjIzLEYsTkEsMjQsMy45LDMuMSwzLDEsNCw1LDQNCjE4MSxBZGRpZSBWaWxsYXZpY2VuY2lvLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gSm9zZSwzNy4zNCwtMTIxLjg5LEYsTkEsMjAsNCwzLjUsMy4yLDUsNSw1LDQNCjE4MixCaWxseSBKYWNrIEJlc3RsZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsQmFsdGltb3JlLDM5LjI5LC03Ni42MSxNLE5BLDIyLDMuNyw0LDMuOCw1LDUsNCw1DQoxODMsSXNhYmVsbGEgTWFydGluZXosQ29sb21iaWEsQm9nb3Q/77+9LDQuNjUsLTc0LjA2LEYsTkEsMjMsMi42LDQsMi43LDQsMyw0LDMNCjE4NCxLaW1iZXJseSBUaGllbGtlLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LEYsTkEsMjEsMy44LDMuOSwzLjMsNSwzLDUsNQ0KMTg1LEFkcmlhbiBNaWd1ZWwtR29tZXosQ29sb21iaWEsTWVkZWxsP++/vW4sNi4yNSwtNzUuNTYsTSxOQSwyMiwzLjcsMy4zLDIuMiw0LDQsNCw1DQoxODYsS2F5bGEgU2FsZXMsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFF1aW5jeSw0Mi4yNSwtNzEsRixOQSwyMiwyLjEsMy4xLDQsNSw1LDQsNQ0KMTg3LEhhYWZpemEgYWwtQXR0YXIsTW9yb2NjbyxSYWJhdCwzNC4wMSwtNi44NCxGLE5BLDIxLDIuNCwzLjYsMy44LDMsMyw1LDMNCjE4OCxKdWFuaXRhIE1lZGluYSxNZXhpY28sTWV4aWNvLDE5LjQzLC05OS4xNCxGLE5BLDIyLDMuOCwzLjksMy43LDQsMyw1LDQNCjE4OSxFbW1hIEtpbSxDaGluYSxIZW5nc2h1aSwzNy43MywxMTUuNyxGLE5BLDIyLDIuOCwzLjksMy44LDIsNCw0LDQNCjE5MCxNY2theWxhIERvcGxlcixOZXRoZXJsYW5kcyxLZXJrcmFkZSw1MC44Nyw2LjA3LEYsTkEsMjEsMi41LDMuNSwzLjcsNCwyLDQsNA0KMTkxLEpvbmF0aGFuIE5ldmFyZXosTWV4aWNvLE1leGljbywxOS40MywtOTkuMTQsTSxOQSwyMywyLjcsMi42LDMuNiw1LDQsNSw1DQoxOTIsUm9nZXIgUmVkZmVybixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIxLDMuOSwzLjksMy4xLDUsNSwzLDQNCjE5MyxIYW5uYWggQ3JpdGNoZmllbGQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE5ldyBZb3JrLDQwLjcxLC03NC4wMSxGLE5BLDIxLDMuNSwzLjMsMy42LDUsNSw0LDUNCjE5NCxDaHVlIEZ1ZSBSaWNodGVyLENoaW5hLFFpcWloYXIsNDcuMzQsMTIzLjk3LE0sTkEsMjMsMywzLjYsMS40LDQsNSwzLDQNCjE5NSxKb3NodWEgTWVzYW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbiBKb3NlLDM3LjM0LC0xMjEuODksTSxOQSwyNCw0LDMuOCwzLjcsNSw1LDQsNQ0KMTk2LER5bGFuIEJlbGwsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFR1Y3NvbiwzMi4yMiwtMTEwLjkzLE0sTkEsMjAsMy4zLDMuOCwzLjUsNSw1LDQsNA0KMTk3LFRyb3kgV2hpdGUsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE5ldyBZb3JrLDQwLjcxLC03NC4wMSxNLE5BLDIyLDQsMy42LDMuNCw1LDQsNCw1DQoxOTgsU2FiYWFoYSBhbC1MYXRpZixJbmRpYSxCYW5nYWxvcmUsMTIuOTgsNzcuNTgsRixOQSwyMiwzLjcsMi43LDMsMyw1LDMsNQ0KMTk5LEdyYW50IFdhbGRlbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIERpZWdvLDMyLjcyLC0xMTcuMTYsTSxOQSwyMiwzLjgsMy4zLDMuMyw1LDUsNCw1DQoyMDAsS2l0dHkgTmd1eWVuLEphcGFuLFRva3lvLDM1LjY5LDEzOS43NSxGLE5BLDI1LDMuNCwzLjIsMi45LDQsNCwzLDUNCjIwMSxUeWxlciBLaWJlbCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FudGEgQW5hLDMzLjc1LC0xMTcuODcsTSxOQSwyNCw0LDMuMiwzLjgsNSw1LDMsNA0KMjAyLEt5bGVyIE92ZXJib2UsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLENoaWNhZ28sNDEuODUsLTg3LjY1LE0sTkEsMjEsMy4yLDQsMy41LDUsNCwzLDQNCjIwMyxBbGV4YW5kZXIgTGl6YW1hLEJyYXppbCxCZWxvIEhvcml6b250ZSwtMTkuOTIsLTQzLjkzLE0sTkEsMjEsMy45LDMuNywzLjksMyw0LDUsNA0KMjA0LEFhcm9uIEtub3R0LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW50YSBBbmEsMzMuNzUsLTExNy44NyxNLE5BLDIzLDMuMiwzLjYsMy43LDUsNCw1LDQNCjIwNSxKZXNzaWNhIEdyZWVuYmVyZyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsSm9wbGluLDM3LjA4LC05NC41MSxGLE5BLDIzLDMuNiwzLjcsMi44LDUsNCw0LDUNCjIwNixMZXhpIEhhdHRvbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIzLDMuMywyLjcsNCw1LDQsNSw1DQoyMDcsSmVzc2UgSG9kYXBwLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxEYW52aWxsZSwzNy44MiwtMTIyLE0sTkEsMjEsMy44LDMsMy41LDUsNCwyLDINCjIwOCxBbmRyZXcgQnJ1bmVsbGksVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE5ldyBZb3JrLDQwLjcxLC03NC4wMSxNLE5BLDIzLDMuNCwzLjgsNCw1LDQsMywzDQoyMDksTWFrZW56aWUgU3dhbm4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFN0b2NrdG9uLDM3Ljk2LC0xMjEuMjksRixOQSwyMiwzLjQsMi44LDMuMSw1LDUsNSw0DQoyMTAsQ2FybG9zIEFuYXlhLE1leGljbyxNZXhpY28sMTkuNDMsLTk5LjE0LE0sTkEsMjQsMy43LDMuNywzLjcsNCw0LDUsNQ0KMjExLEZlbGlwZSBNYXJ0aW5leiBBY29zdGEsQ2hpbGUsU2FudGlhZ28sLTMzLjQ1LC03MC42NyxNLE5BLDIxLDMuNywzLjcsNCwzLDQsMyw1DQoyMTIsRW1tYSBDYXNpYXMsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFJvY2hlc3Rlciw0My4xNSwtNzcuNjIsRixOQSwyMiwzLjIsMy43LDMuMiw1LDQsMyw1DQoyMTMsQWRvbGYgTWFsaWssS29yZWEgKFJlcHVibGljIG9mKSxTZW91bCwzNy42LDEyNi45OCxNLE5BLDIxLDMuMSwzLjUsMy42LDMsNCw0LDMNCjIxNCxDaHJpc3RpYW4gQ2hvdyxDaGluYSxIYW5kYW4sMzYuNTcsMTE0LjUzLE0sTkEsMjEsMi42LDMuOSwzLjQsNCw1LDUsNQ0KMjE1LEFzYWQgZWwtWWFjb3ViLEluZGlhLFRoYW5hLDE5LjIsNzIuOTcsTSxOQSwyMiwyLjYsMy4zLDQsMyw1LDQsNA0KMjE2LEhvbGx5IE1hcnNoYWxsLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gRnJhbmNpc2NvLDM3Ljc3LC0xMjIuNDIsRixOQSwyMiwzLDIuNywyLDUsMyw0LDQNCjIxNyxCcmFuZGlseW4gSGFuc2VsbWFuLFJ1c3NpYW4gRmVkZXJhdGlvbixDaGVseWFiaW5zayw1NS4xNSw2MS40MyxGLE5BLDIxLDIsMy41LDIuMiw0LDQsNSw0DQoyMTgsTmljb2xlIFBhdHJpYSxDaGluYSxDaG9uZ3FpbmcsMjkuNTYsMTA2LjU1LEYsTkEsMjQsMy45LDMuMywzLDIsMyw1LDUNCjIxOSxLeWxlciBHcmllc2hhYmVyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxDb2hvZXMsNDIuNzcsLTczLjcsTSxOQSwyMiwzLjYsMy40LDQsNSw0LDMsNQ0KMjIwLEphc3BlciBTdGFuZyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FjcmFtZW50bywzOC41OCwtMTIxLjQ5LE0sTkEsMjQsMy42LDMuOSwzLjMsNSw1LDUsNQ0KMjIxLEFudGhvbnkgVmlzb2Nza3ksVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbnRhIFJvc2EsMzguNDQsLTEyMi43MSxNLE5BLDIxLDMuNCwyLjQsNCw1LDIsNCw0DQoyMjIsSmFrZSBTZWltZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsUmVubywzOS41MywtMTE5LjgxLE0sTkEsMjIsMi40LDMuOSwzLjcsNSw0LDQsNQ0KMjIzLERhc2hhIEJhbm5vY2sgTGVlLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTYW4gRGllZ28sMzIuNzIsLTExNy4xNixvdGhlcixOQSwyMCwyLjgsMy4zLDQsNSw0LDMsMg0KMjI0LEFudGhvbnkgTWNkZXZpdHQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsTSxOQSwyNCwzLjEsNCwzLjksNSw0LDUsMw0KMjI1LERhcmJ5IEZvY2tlbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsSGluc2RhbGUsNDEuOCwtODcuOTQsRixOQSwyMSwzLjUsMi41LDMuNyw1LDQsNCw0DQoyMjYsQWJpZ2FpbCBHYWxsZWdvcyxCcmF6aWwsQmVsPz9tLC0xLjQ1LC00OC40OCxGLE5BLDI0LDMuNCwzLDIuMSw0LDMsMyw0DQoyMjcsUGF0cmljaWEgUm9ja2hvbGQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbiBGcmFuY2lzY28sMzcuNzcsLTEyMi40MixGLE5BLDIxLDQsMy41LDMuNCw1LDUsNCw1DQoyMjgsS3lsaWUgU2NoYWZlcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsSG91c3RvbiwyOS43NiwtOTUuMzYsRixOQSwyMiwzLjEsMywzLjMsNSw1LDUsNA0KMjI5LEthdGhlcmluZSBCZWF0dHksVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwxOSw0LDIuNCwzLjksNSw0LDUsNA0KMjMwLE1lbGlzc2EgQmlja2VsLFVuaXRlZCBLaW5nZG9tLExvbmRvbiw1MS41MSwtMC4wOSxGLE5BLDIyLDMuNiwyLjYsMi41LDUsNCw0LDQNCjIzMSxSYWNoZWwgQm9oLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxSb3NldmlsbGUsMzguNzUsLTEyMS4yOSxGLE5BLDIyLDMuOCwzLjksMi45LDUsNCwzLDINCjIzMixBbm5hIFlvc2hpbXVyYSxDaGluYSxSaXpoYW8sMzUuMzksMTE5LjU1LEYsTkEsMjAsMy41LDMuOCwzLjksNCw1LDUsMg0KMjMzLEpvc2VwaCBIYXplbHRvbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsT2FrbGFuZCwzNy44LC0xMjIuMjcsTSxOQSwyMiwzLjUsNCwzLjksNSw1LDQsNQ0KMjM0LFRpZmZhbnkgTmd1eWVuLFRoYWlsYW5kLEJhbmdrb2ssMTMuNzUsMTAwLjUsRixOQSwyMiwzLjMsMy45LDMuOSwyLDUsNCw1DQoyMzUsUnlhbiBUeWxlcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIwLDMuNywzLjUsMy41LDUsNCw1LDUNCjIzNixNYXggRmxvcmVzLE1leGljbyxUaWp1YW5hLDMyLjUzLC0xMTcuMDIsTSxOQSwyMywzLjksMi44LDIuNSw0LDQsNSw1DQoyMzcsVmVyb25pY2EgVG91bnplbixNZXhpY28sVGlqdWFuYSwzMi41MywtMTE3LjAyLEYsTkEsMjEsMy44LDMuNSwzLjUsNCw0LDQsNQ0KMjM4LEhhbGV5IEluZ3JpbS1IeXJ1cCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsRm9udGFuYSwzNC4wOSwtMTE3LjQzLEYsTkEsMjIsMy4yLDMuNiwyLjYsNSwyLDQsMw0KMjM5LEtheWxhIFNhbmRlZnVyLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LEYsTkEsMjMsMy41LDMuMSwzLjUsNSw1LDQsNQ0KMjQwLFJ5bGVlIE9uc3RvdHQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsb3RoZXIsTkEsMjEsNCwzLjgsMy44LDUsNSw1LDMNCjI0MSxLZWxsaSBEZSBCYXJ0b2xvbWUsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhbiBGcmFuY2lzY28sMzcuNzcsLTEyMi40MixGLE5BLDIzLDMuNCwzLjQsMy41LDUsMiw1LDQNCjI0MixUaG9tYXMgQ2hhbmx5bm4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEJheSBQb2ludCwzOC4wMywtMTIxLjk2LE0sTkEsMjIsMi40LDMsMy44LDUsMyw0LDMNCjI0MyxBbmRyZXcgWWVsaWNoLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxCb3VsZGVyLDQwLjAyLC0xMDUuMjcsTSxOQSwyNCwyLDMuOSwzLjMsNSw0LDQsNA0KMjQ0LERpbWl0cmkgQ2FzdGlsbG8sQ29sb21iaWEsRG9zIFF1ZWJyYWRhcyw0Ljg0LC03NS42NyxNLE5BLDIxLDMuOSwzLDMuOCwzLDIsNCw0DQoyNDUsTWF0dGhldyBTdHJhc2J1cmdlcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIxLDMuOSwzLjksMi45LDUsNCw0LDQNCjI0NixWaXR0b3JpYSBGYXVsa25lcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsQ2hpY2Fnbyw0MS44NSwtODcuNjUsRixOQSwyMiw0LDMuNiwyLjUsNSw1LDQsNA0KMjQ3LFR5bGVyIEdvZXR6LFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LE0sTkEsMjIsMy43LDMuNSwyLjgsNSw1LDQsMg0KMjQ4LFR5bGVyIFdlbGxlcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTmV3IFlvcmssNDAuNzEsLTc0LjAxLE0sTkEsMjIsMy43LDMuMiwzLjEsNSw0LDMsNQ0KMjQ5LFRlcnJpIE1lcmdlbG1hbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxGLE5BLDIzLDIuNywzLjksMyw1LDQsNCw0DQoyNTAsQWJpZ2FpbCBPcmdlcm9uLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQcmlvciBMYWtlLDQ0LjcxLC05My40MixGLE5BLDIzLDMuMiwzLDMuOCw1LDUsNSw0DQoyNTEsSmVzc2ljYSBIdXluaCxLb3JlYSAoUmVwdWJsaWMgb2YpLFNlb3VsLDM3LjYsMTI2Ljk4LEYsTkEsMjIsMy41LDIuNywzLjIsMiw1LDMsNQ0KMjUyLEt5bGUgQmxhbnNjZXQsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNhYmF0dHVzLDQ0LjEyLC03MC4xMSxNLE5BLDIzLDMuOCwzLjUsMy43LDUsNCw0LDUNCjI1MyxSb25hbGQgVG90aCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIzLDIuNywzLjUsMy43LDUsNCwzLDQNCjI1NCxCcmFuZGVuIENhbnRyZWxsLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxQaG9lbml4LDMzLjQ1LC0xMTIuMDcsTSxOQSwyMywyLjcsNCwzLjksNSw1LDUsNQ0KMjU1LEhhbm5haCBSYXR0ZXJtYW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMywzLjUsMy40LDMuNyw1LDIsNSw1DQoyNTYsQWxleGFuZHJpYSBXaW50ZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE5ldyBZb3JrLDQwLjcxLC03NC4wMSxGLE5BLDI0LDMuOCwzLjgsMi4yLDUsNSwzLDQNCjI1NyxSeWFuIFJ1c3NlbGwsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFZhY2F2aWxsZSwzOC4zNiwtMTIxLjk5LE0sTkEsMjIsMywzLjQsMy43LDUsMyw1LDMNCjI1OCxMb2dhbiBOaWdoc3dvbmdlcixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9zIEFuZ2VsZXMsMzQuMDUsLTExOC4yNCxNLE5BLDIxLDIuNyw0LDMuOSw1LDQsMyw1DQoyNTksWmFnaGxvb2wgYWwtUGFzaGEsSW5kaWEsRGVvcmlhLDI2LjUsODMuNzksTSxOQSwyMSwyLjMsMy44LDMuOCw0LDUsNSw1DQoyNjAsTWFkZWxpbmUgS3JlbWtlLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNb250Z29tZXJ5IFZpbGxhZ2UsMzkuMTgsLTc3LjIsRixOQSwyMiwzLjIsMy42LDIuNiw1LDQsNCw0DQoyNjEsSm9obiBGZXJyeSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTG9uZyBCZWFjaCwzMy43NywtMTE4LjE5LE0sTkEsMjEsMy44LDIuNCwzLjgsNSw0LDIsNQ0KMjYyLE1pY2hlbGxlIEdvbGRhbmxvbyxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIERpZWdvLDMyLjcyLC0xMTcuMTYsRixOQSwyMiwzLjMsMi44LDMuOSw1LDUsNSw0DQoyNjMsUnlhbiBIZWlkZWJyZWNodCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIEpvc2UsMzcuMzQsLTEyMS44OSxNLE5BLDIyLDMuOSwzLjcsMy44LDUsNSwzLjUsNQ0KMjY0LE11cnRpZGV2aSBDaHVuZyxKYXBhbixUb2t5bywzNS42OSwxMzkuNzUsRixOQSwyMSwyLjksMy45LDMuNSwyLDQsNSw0DQoyNjUsQXJlbHkgUm9kcmlndWV6LE1leGljbyxNb3JlbGlhLDE5LjcsLTEwMS4xMixGLE5BLDIxLDMuOSwzLjUsMy42LDQsNCw0LDMNCjI2NixUYXlsb3IgU3RvbmUsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFJlbm8sMzkuNTMsLTExOS44MSxGLE5BLDIyLDMsMywzLjUsNSw1LDUsMw0KMjY3LE1lbG9keSBCb3d5ZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEJheXRvd24sMjkuNzQsLTk0Ljk4LEYsTkEsMjEsMy4yLDMuNSwzLjMsNSw0LDQsNQ0KMjY4LEJyeWFudCBSb25xdWlsbG8sTWV4aWNvLEFndWFzY2FsaWVudGVzLDIxLjg4LC0xMDIuMyxNLE5BLDIwLDQsMy4yLDMuNSw0LDMsNSwzDQoyNjksR2FycmV0dCBIZWltLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNb2JpbGUsMzAuNjksLTg4LjA0LE0sTkEsMjAsNCwzLjIsMy4xLDUsNCw0LDUNCjI3MCxDb2R5IEFtZW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExhcyBWZWdhcywzNi4xNywtMTE1LjE0LE0sTkEsMjMsMy42LDMuOSwzLjcsNSw0LDQsNA0KMjcxLEphc21pbmUgTG9wZXosQnJhemlsLEd1YXh1cD8/LC0yMS4zLC00Ni43LEYsTkEsMjEsMy44LDMuOCwxLjUsNCw0LDMsNA0KMjcyLFdpbGxpYW0gVGllcm5leSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTmV3IFlvcmssNDAuNzEsLTc0LjAxLE0sTkEsMjEsMy44LDIuMSwzLDUsMyw0LDQNCjI3MyxNYXR0aGV3IFNwdXRoLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNb2Rlc3RvLDM3LjY0LC0xMjEsTSxOQSwyMiwzLjIsMi42LDQsNSwzLDMsNQ0KMjc0LEJyZW5uYSBDaGFwbWFuLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMYXMgVmVnYXMsMzYuMTcsLTExNS4xNCxGLE5BLDIxLDMuNSwzLjgsMy4zLDUsNSw0LDUNCjI3NSxCbGFrZSBMb3VnaHJhbixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIEZyYW5jaXNjbywzNy43NywtMTIyLjQyLE0sTkEsMjEsNCwzLDMuNCw1LDQsMyw0DQoyNzYsTWljaGFlbCBNZWxlbmRyZXosVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLFNocmV2ZXBvcnQsMzIuNTIsLTkzLjc1LE0sTkEsMjIsMy40LDMuOCwzLjIsNSw0LDQsNA0KMjc3LEthdGllIEFiZXJjcm9tYmllLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxTdG9ja3RvbiwzNy45NiwtMTIxLjI5LEYsTkEsMjEsMy44LDMuOCwzLjYsNSwzLDUsNA0KMjc4LEp1c3RpbiBLcmF1c2UsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEluZGVwZW5kZW5jZSwzOS4wOSwtOTQuNDIsTSxOQSwyMSwzLjksMi42LDIuOCw1LDMsNSw1DQoyNzksSmVubmlmZXIgSGF1Z2UsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMywyLjYsMywyLjMsNSw0LDQsNA0KMjgwLFRpZmZhbmllIEhlcixKYXBhbixUb2t5bywzNS42OSwxMzkuNzUsRixOQSwyMiwzLjQsNCwzLjYsMyw0LDQsMw0KMjgxLER5bGxhbiBQYWlnZSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU3VnYXIgTGFuZCwyOS42MiwtOTUuNjMsTSxOQSwyMCwyLjksMy4xLDIuNiw1LDUsNSw0DQoyODIsQ29sZSBIYXRoY29hdCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTGVtb29yZSwzNi4zLC0xMTkuNzgsTSxOQSwyMywyLjQsMy42LDIuOCw1LDMsNSw1DQoyODMsSmVzc2UgQ2FyYmFsbG8sQ29sb21iaWEsQm9nb3Q/77+9LDQuNjUsLTc0LjA2LE0sTkEsMjAsMy44LDMuOSwzLjksNCw1LDQsNA0KMjg0LFJvYmVydCBQb2RvbHNraSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsT2FrbGFuZCwzNy44LC0xMjIuMjcsTSxOQSwyMiwzLjcsMy4zLDIuNCw1LDQsNCw0DQoyODUsVmlyaWRpYW5hIEJhbGxlc3Rlcm9zLEJyYXppbCxBbGZlbmFzLC0yMS40MywtNDUuOTUsRixOQSwyMiwyLjgsMy41LDMuOSw0LDQsNSw1DQoyODYsTWljaGFlbCBHcmlmZmluLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsTSxOQSwyMSw0LDQsNCw1LDMsNSw1DQoyODcsQ2hhZCBLbGVtcCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIERpZWdvLDMyLjcyLC0xMTcuMTYsTSxOQSwyMiwzLjksMi42LDQsNSw0LDQsNQ0KMjg4LFdlbGRvbiBIaWdodG93ZXIsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE5ldyBZb3JrLDQwLjcxLC03NC4wMSxNLE5BLDIwLDIuNiwyLjEsMy4yLDUsNCw1LDUNCjI4OSxEYW5pZWwgUGllcmNlLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsTSxOQSwyNCwzLjMsMi44LDMuOSw1LDUsNCw1DQoyOTAsTWljaGFlbGEgU2Nob2VuYmVjayxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsUmV4YnVyZyw0My44MywtMTExLjc5LEYsTkEsMjIsMy45LDQsMy4zLDUsNSw0LDQNCjI5MSxDaGFybGVzIFByb3NlLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxNaWFtaSwyNS43NywtODAuMTksTSxOQSwyNCwzLjcsMy4yLDIuOCw1LDQsNCw1DQoyOTIsQnJpdHRhbnkgS2VtbWVyemVsbCxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsTmV3IFlvcmssNDAuNzEsLTc0LjAxLEYsTkEsMjMsMy4yLDMuNCwzLjcsNSw0LDUsMw0KMjkzLFRhcnluIFNwcmluZ2ZpZWxkLENhbmFkYSxWYW5jb3V2ZXIsNDkuMjUsLTEyMy4xMyxGLE5BLDIwLDMuNSwzLjcsMy40LDUsNSw1LDUNCjI5NCxNYXR0aGV3IE9ib3VybixVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsU2FuIERpZWdvLDMyLjcyLC0xMTcuMTYsTSxOQSwyMywzLjksNCwzLjksNSw0LDQsNA0KMjk1LFRyYXZpcyBQb3NzLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LE0sTkEsMjMsMi4zLDMsMy41LDUsMSw1LDUNCjI5NixCcml0dGFueSBGZXJuYW5kZXosTWV4aWNvLFphbW9yYSwxOS45OCwtMTAyLjI3LEYsTkEsMjMsMy45LDMuNywyLjksNCwzLDQsNA0KMjk3LENvZHkgU21pdGgsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLENoYXJsb3R0ZSwzNS4yMywtODAuODQsTSxOQSwyMywzLjgsMy41LDMuOSw1LDUsMiw1DQoyOTgsTmljb2xhcyBQYXBwLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxOZXcgWW9yayw0MC43MSwtNzQuMDEsTSxOQSwyMywyLjcsMy43LDMuOSw1LDUsNCw0DQoyOTksQ2hyaXN0b3BoZXIgSW5odWxzZW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLEZvcnQgV29ydGgsMzIuNzMsLTk3LjMyLE0sTkEsMjMsMy4xLDMuMywyLjksNSwyLDQsNA0KMzAwLFRlc3NhIFJhd2FuZHV6eSxVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsRGVyYnksMzcuNTUsLTk3LjI3LEYsTkEsMjEsMy4zLDMuMywyLDUsMywzLDUNCjMwMSxWYW5lc3NhIEdvbnphbGV6LE5pY2FyYWd1YSxMZT8/biwxMi40NCwtODYuODgsRixOQSwyNCwzLjMsMy43LDMuOCwzLDUsNSw0DQozMDIsQXVzdGluIEhhYXMsVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLENvbHVtYnVzLDM5Ljk2LC04MyxNLE5BLDIwLDMuNiwzLjcsMy4xLDUsNCw1LDUNCjMwMyxNYWRpc29uIEZpdGhpYW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLExvcyBBbmdlbGVzLDM0LjA1LC0xMTguMjQsRixOQSwyMCwzLjYsMy45LDQsNSw1LDUsMw0KMzA0LFphY2hhcnkgTXVsdmFoaWxsLFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSxMb3MgQW5nZWxlcywzNC4wNSwtMTE4LjI0LE0sTkEsMjAsMy4yLDMuNCwzLjksNSw1LDUsMw0KMzA1LEVsaWFuYSBNaWNoZWxzZW4sVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhLE9ha2xhbmQsMzcuOCwtMTIyLjI3LEYsTkEsMjMsMywyLjgsMi45LDUsNCw0LDUNCjMwNixEYW5lIFdoaXR0ZW1vcmUsQ2FuYWRhLFRvcm9udG8sNDMuNjcsLTc5LjQyLE0sTkEsMjEsMy44LDMuMiw0LDUsNSw0LDUNCg==    </byte>
+    <null name="description"/>
+    <value name="columnDelimiter">,</value>
+    <value name="releaseCharacter">"</value>
+    <array name="columnNames" type="value" depth="1">
+      <value>id</value>
+      <value>name</value>
+      <value>nationality</value>
+      <value>city</value>
+      <value>latitude</value>
+      <value>longitude</value>
+      <value>gender</value>
+      <value>ethnic.group</value>
+      <value>age</value>
+      <value>english.grade</value>
+      <value>math.grade</value>
+      <value>sciences.grade</value>
+      <value>language.grade</value>
+      <value>portfolio.rating</value>
+      <value>coverletter.rating</value>
+      <value>refletter.rating</value>
+    </array>
+    <value name="encodingType">IBM437</value>
+  </record>
+</Values>
