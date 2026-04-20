@@ -12,6 +12,7 @@
       <value name="node_pkg">WmPublic</value>
       <value name="node_comment"></value>
       <value name="is_public">false</value>
+      <value name="is_visible">True</value>
       <value name="field_type">record</value>
       <value name="field_dim">0</value>
       <value name="wrapper_type">IData</value>
