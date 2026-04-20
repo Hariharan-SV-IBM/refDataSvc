@@ -455,7 +455,8 @@
   <value name="pipeline_option">0</value>
   <null name="originURI"/>
   <value name="modifiable">true</value>
-  <value name="is_public">false</value>
+  <value name="is_public">true</value>
+  <value name="is_visible">True</value>
   <record name="$REFERENCE_DATA$" javaclass="com.wm.util.Values">
     <value name="name">refdata</value>
     <value name="packageName">refDataSvc</value>
