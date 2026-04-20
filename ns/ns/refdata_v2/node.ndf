@@ -228,7 +228,8 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="is_public">false</value>
+          <value name="is_public">true</value>
+          <value name="is_visible">True</value>
           <value name="field_name">refdata_v2</value>
           <value name="field_type">record</value>
           <value name="field_dim">1</value>
